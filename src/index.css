@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  
+  --color-gold: #c5a059;
+  --color-gold-dark: #8e6d31;
+  --color-bg: #0a0b0e;
+  --color-card: #15181e;
+  --color-text: #f0f0f0;
+  --color-muted: #8e9196;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
